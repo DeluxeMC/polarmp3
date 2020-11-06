@@ -1,0 +1,1 @@
+java -jar "polarmp3.jar"

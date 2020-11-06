@@ -77,12 +77,12 @@ public class View extends JFrame {
         backButton = new JButton();
         playButton = new JButton();
         skipButton = new JButton();
-        openSongButton = new JButton("Open Song");
+        openSongButton = new JButton();
         openPlaylistButton = new JButton("Open Playlist");
         prevPlaylistButton = new JButton("Previous Playlist");
         nextPlaylistButton = new JButton("Next Playlist");
         volumeSlider = new JSlider();
-        closeWindowButton = new JButton("Close");
+        closeWindowButton = new JButton();
         editWindowButton = new JButton("Edit Window");
         removeSongButton = new JButton("Remove Song");
 
@@ -90,6 +90,7 @@ public class View extends JFrame {
         addIcon(playButton, "icons/play.png");
         addIcon(skipButton, "icons/next.png");
         addIcon(closeWindowButton, "icons/error.png");
+        addIcon(openSongButton, "icons/open.png");
 
         backButton.getPreferredSize();
         playButton.getPreferredSize();
